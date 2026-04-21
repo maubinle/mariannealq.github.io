@@ -1,0 +1,48 @@
+# Site settings
+title: "Marianne Aubin Le Quéré"
+name: "Marianne Aubin Le Quéré"
+email: marianne.alq@princeton.edu
+description: "Postdoctoral Fellow at Princeton CITP | Incoming Assistant Professor at UIUC School of Information Sciences"
+url: "https://mariannealq.com"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Permalink structure
+permalink: /:categories/:title/
+
+# Collections
+collections:
+  publications:
+    output: true
+    permalink: /publications/:name/
+
+# Open Graph image (used for social sharing previews)
+image: /assets/img/profile.jpg
+
+# Social links
+github_username: maubinle
+bluesky_username: mariannealq.bsky.social
+linkedin_username: maubinlequere
+scholar_url: "https://scholar.google.com/citations?user=u3sO_OkAAAAJ"
+
+# Navigation menu
+navigation:
+  - title: "Home"
+    url: /
+  - title: "Publications"
+    url: /publications/
+  - title: "CV"
+    url: /cv/
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md

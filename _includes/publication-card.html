@@ -1,0 +1,21 @@
+<div class="publication">
+    <div class="pub-title">
+        {% if include.pub.url_paper %}
+        <a href="{{ include.pub.url_paper }}">{{ include.pub.title }}</a>
+        {% else %}
+        {{ include.pub.title }}
+        {% endif %}
+    </div>
+    <div class="pub-authors">{{ include.pub.authors }}</div>
+    <div class="pub-venue">{{ include.pub.venue }}, {{ include.pub.year }}</div>
+    {% if include.pub.award %}
+    <div class="pub-award">🏆 {{ include.pub.award }}</div>
+    {% endif %}
+    {% if include.pub.url_paper or include.pub.url_code or include.pub.url_website %}
+    <div class="pub-links">
+        {% if include.pub.url_paper %}<a href="{{ include.pub.url_paper }}">Paper</a>{% endif %}
+        {% if include.pub.url_code %}<a href="{{ include.pub.url_code }}">Code</a>{% endif %}
+        {% if include.pub.url_website %}<a href="{{ include.pub.url_website }}">Website</a>{% endif %}
+    </div>
+    {% endif %}
+</div>

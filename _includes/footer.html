@@ -1,0 +1,19 @@
+<footer class="site-footer">
+    <div class="container">
+        <p>&copy; {{ 'now' | date: "%Y" }} {{ site.name }}. Built with Jekyll and Claude.</p>
+        <div class="social-links">
+            {% if site.scholar_url %}
+            <a href="{{ site.scholar_url }}" aria-label="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+            {% endif %}
+            {% if site.bluesky_username %}
+            <a href="https://bsky.app/profile/{{ site.bluesky_username }}" aria-label="Bluesky"><i class="fa-brands fa-bluesky"></i></a>
+            {% endif %}
+            {% if site.linkedin_username %}
+            <a href="https://linkedin.com/in/{{ site.linkedin_username }}" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            {% endif %}
+            {% if site.github_username %}
+            <a href="https://github.com/{{ site.github_username }}" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            {% endif %}
+        </div>
+    </div>
+</footer>

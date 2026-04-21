@@ -1,0 +1,8 @@
+_site/
+.jekyll-cache/
+vendor/
+.bundle/
+.DS_Store
+.claude/
+assets/img/profile copy.jpg
+assets/img/2024_1060_PN_627.jpg
