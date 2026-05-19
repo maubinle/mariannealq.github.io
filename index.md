@@ -4,7 +4,7 @@ layout: default
 
 <div class="profile-section">
     <div class="profile-text">
-        <p>I am a postdoctoral fellow at Princeton's Center for Information Technology Policy, working with Manoel Horta Ribeiro and Andy Guess as part of the <a href="https://humans-and-machines.github.io">Humans and Machines lab</a>.</p>
+        <p>I am a postdoctoral fellow at Princeton's Center for Information Technology Policy, working with Manoel Horta Ribeiro and Andy Guess as part of the <a href="https://humans-and-machines.github.io">Humans and Machines lab</a>. In August 2026, I will join as an Assistant Professor at the School of Information Sciences at the University of Illinois Urbana-Champaign.</p>
         
         <p>My work traces how AI and other emerging technologies impact online news and civic information consumption. My aim is to help keep the public informed and civically engaged in an accessible, transparent, and equitable way.</p>
         
