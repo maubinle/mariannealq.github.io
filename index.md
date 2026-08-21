@@ -40,13 +40,23 @@ layout: default
 <div id="news-list">
 
 <div class="news-item">
+    <span class="news-date">August 2026</span>
+    <div class="news-content">I began my appointment as an Assistant Professor at the School of Information Sciences at the University of Illinois Urbana-Champaign.</div>
+</div>
+
+<div class="news-item">
     <span class="news-date">July 2026</span>
-    <div class="news-content">I will be attending IC2S2 in Vermont, where I am thrilled to be presenting a parallel talk and a plenary lightning talk!</div>
+    <div class="news-content">Together with my colleagues at Princeton, I co-authored a new report <a href="https://citp.princeton.edu/news/2026/holding-line-authentication-verification-and-fight-facts-ai-age">on Holding the Line: Authentication, Verification, and the Fight for Facts in the AI Age </a>.</div>
+</div>
+
+<div class="news-item">
+    <span class="news-date">July 2026</span>
+    <div class="news-content">I attended IC2S2 in Vermont, where I presented two parallel talks and a plenary lightning talk.</div>
 </div>
 
 <div class="news-item">
     <span class="news-date">April 2026</span>
-    <div class="news-content">I will be giving a <a href="https://www.networkscienceinstitute.org/talks/marianne-aubin-le-quere">talk at Northeastern University's Network Science Institute</a> on Wednesday, April 29th.</div>
+    <div class="news-content">I gave a <a href="https://www.networkscienceinstitute.org/talks/marianne-aubin-le-quere">talk at Northeastern University's Network Science Institute</a> on Wednesday, April 29th.</div>
 </div>
 
 <div class="news-item">
@@ -64,14 +74,14 @@ layout: default
     <div class="news-content">I started my new role as a Postdoctoral Research Fellow at Princeton's Center for Information Technology Policy.</div>
 </div>
 
-<div class="news-item">
+<!-- <div class="news-item">
     <span class="news-date">July 2025</span>
     <div class="news-content">I defended my dissertation, "How AI and Emerging Technologies Impact Local Civic Information Ecosystems." Call me Dr!</div>
-</div>
+</div> -->
 
-<div class="news-item">
+<!-- <div class="news-item">
     <span class="news-date">May 2025</span>
-    <div class="news-content">Attended CHI 2025 in Yokohama, Japan to present paper on LLMs for qualitative research tasks.</div>
+    <div class="news-content">Attended CHI 2025 in Yokohama, Japan to present paper on LLMs for qualitative research tasks.</div> -->
 </div>
 
 </div>
