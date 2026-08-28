@@ -16,7 +16,7 @@ layout: default
     
     <div class="profile-sidebar">
         <img src="/assets/img/profile.jpg" alt="{{ site.name }}" class="profile-image">
-        <p class="role">Postdoctoral Fellow<br>Princeton Center for Information Technology Policy<br><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+        <p class="role">Assistant Professor<br>University of Illinois Urbana-Champaign School of Information Sciences<br><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
         
         <div class="social-links">
             {% if site.scholar_url %}
