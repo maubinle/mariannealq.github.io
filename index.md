@@ -35,6 +35,10 @@ layout: default
     </div>
 </div>
 
+<div class="recruiting-callout">
+    <p><strong>Recruiting PhD students for Fall 2027.</strong> I am seeking technical students with interest in computational social science or human-computer interaction who are committed to working on topics around news and civic information ecosystems. <a href="/faq/">View FAQ →</a></p>
+</div>
+
 ## Recent News
 
 <div id="news-list">

@@ -339,6 +339,36 @@ p a, .news-content a {
     }
 }
 
+// Recruiting callout (homepage)
+.recruiting-callout {
+    margin-bottom: 30px;
+    padding: 25px;
+    background-color: $bg-light;
+    border-radius: 3px;
+    transition: box-shadow 0.2s ease;
+
+    &:hover {
+        box-shadow: 6px 6px 0 $secondary-color;
+    }
+
+    p {
+        margin: 0;
+        line-height: 1.55;
+    }
+
+    strong {
+        color: $secondary-color;
+    }
+
+    p a {
+        color: $secondary-color;
+
+        &:hover {
+            color: color.adjust($secondary-color, $lightness: -10%);
+        }
+    }
+}
+
 // News items
 .news-item {
     margin-bottom: 20px;
