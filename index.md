@@ -85,8 +85,8 @@ layout: default
 
 <!-- <div class="news-item">
     <span class="news-date">May 2025</span>
-    <div class="news-content">Attended CHI 2025 in Yokohama, Japan to present paper on LLMs for qualitative research tasks.</div> -->
-</div>
+    <div class="news-content">Attended CHI 2025 in Yokohama, Japan to present paper on LLMs for qualitative research tasks.</div>
+</div> -->
 
 </div>
 
